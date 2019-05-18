@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{6CD0170E-A00B-4BA8-84B8-41FA677B85B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PresidentES/Repository/PresidentRepository.cs">
+    <Files>
+      <File FileName="PresidentES/Repository/PresidentRepository.cs" Line="13" Column="6" />
+      <File FileName="President.API/Startup.cs" Line="30" Column="45" />
+      <File FileName="President.API/appsettings.json" Line="19" Column="1" />
+      <File FileName="President.API/Controllers/PresidentController.cs" Line="21" Column="32" />
+      <File FileName="President.Domain/PresidentInfo.cs" Line="12" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Presidents" expanded="True">
+            <Node name="EntityServices" expanded="True">
+              <Node name="PresidentES" expanded="True">
+                <Node name="Repository" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="President.API" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="President.Domain" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.President.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
