@@ -19,3 +19,14 @@ C:/Presidentes/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Dom
 /Users/carlosperez/Documents/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.AssemblyInfo.cs
 /Users/carlosperez/Documents/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.dll
 /Users/carlosperez/Documents/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.pdb
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/bin/Debug/netcoreapp2.1/President.Domain.deps.json
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/bin/Debug/netcoreapp2.1/President.Domain.runtimeconfig.json
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/bin/Debug/netcoreapp2.1/President.Domain.runtimeconfig.dev.json
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/bin/Debug/netcoreapp2.1/President.Domain.dll
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/bin/Debug/netcoreapp2.1/President.Domain.pdb
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.csprojAssemblyReference.cache
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.csproj.CoreCompileInputs.cache
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.AssemblyInfoInputs.cache
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.AssemblyInfo.cs
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.dll
+/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/Debug/netcoreapp2.1/President.Domain.pdb

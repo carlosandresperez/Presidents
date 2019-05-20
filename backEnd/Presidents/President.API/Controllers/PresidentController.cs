@@ -20,11 +20,11 @@ namespace President.API.Controllers
 
         [EnableCors("miPolitica")]
         [HttpGet("getListOfPresidents")]
-        public async Task<IActionResult> getListOfPresidents(bool orderDescending)
+        public async Task<IActionResult> GetListOfPresidents(string orderColumn, bool orderDescending)
         {
             try
             {
-                return Ok(await _service.getListOfPresidents(orderDescending));
+                return Ok(await _service.GetListOfPresidents(orderColumn, orderDescending));
             }
             catch(Exception e)
             {

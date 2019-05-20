@@ -8,6 +8,6 @@ namespace PresidentES.Service
 {
     public interface IPresidentService
     {
-        Task<List<PresidentInfo>> getListOfPresidents(bool orderDescending);
+        Task<List<PresidentInfo>> GetListOfPresidents(string orderColumn, bool orderDescending);
     }
 }

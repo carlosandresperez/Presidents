@@ -14022,11 +14022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlosperez/Documents/Presidents/PresidentES/PresidentES.csproj",
+      "projectUniqueName": "/Users/carlosperez/Documents/Desarrollo/Presidents/PresidentES/PresidentES.csproj",
       "projectName": "PresidentES",
-      "projectPath": "/Users/carlosperez/Documents/Presidents/PresidentES/PresidentES.csproj",
+      "projectPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/PresidentES/PresidentES.csproj",
       "packagesPath": "/Users/carlosperez/.nuget/packages/",
-      "outputPath": "/Users/carlosperez/Documents/Presidents/PresidentES/obj/",
+      "outputPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/PresidentES/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -14043,11 +14043,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/carlosperez/Documents/Presidents/President.Data/President.Data.csproj": {
-              "projectPath": "/Users/carlosperez/Documents/Presidents/President.Data/President.Data.csproj"
+            "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Data/President.Data.csproj": {
+              "projectPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Data/President.Data.csproj"
             },
-            "/Users/carlosperez/Documents/Presidents/President.Domain/President.Domain.csproj": {
-              "projectPath": "/Users/carlosperez/Documents/Presidents/President.Domain/President.Domain.csproj"
+            "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/President.Domain.csproj": {
+              "projectPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/President.Domain.csproj"
             }
           }
         }

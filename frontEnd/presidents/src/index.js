@@ -11,6 +11,7 @@ class Presidents extends React.Component{
         this.state = {
             'presidents': [],
             'orderDescending': false,
+            'orderColumn': "",
             'currentOrder': "Change to Descending order"
         };
     }
@@ -18,19 +19,19 @@ class Presidents extends React.Component{
         this.getPresidents();
     }
 
+    updateOrderColum(selectedColumn){
+        this.state.orderColumn = selectedColumn;
+        console.log(this.state.orderColumn);
+        this.updateOrderMode();
+    }
+
     updateOrderMode(){
         this.state.orderDescending = !this.state.orderDescending;
         this.getPresidents();
-        if (this.state.orderDescending){
-            this.state.currentOrder = "Change to Ascending order"
-        }
-        else{
-            this.state.currentOrder = "Change to Descending order"
-        }
     }
 
     getPresidents(){
-        fetch('https://president-api.azurewebsites.net/api/president/getListOfPresidents?orderDescending='+this.state.orderDescending)
+        fetch('https://president-api.azurewebsites.net/api/president/getListOfPresidents?orderDescending='+this.state.orderDescending+'&orderColumn='+this.state.orderColumn)
         .then(results => results.json())
         .then(results => this.setState({'presidents': results}));
 
@@ -38,15 +39,14 @@ class Presidents extends React.Component{
     render(){
         return (
             <div>
-                <button onClick={(e)=> this.updateOrderMode(e)}>-{this.state.currentOrder}</button>
                 <table>
                     <thead>
                         <tr>
-                            <th>President</th>
-                            <th>Birthday</th>
-                            <th>Birthplace</th>
-                            <th>Deathday</th>
-                            <th>Deathplace</th>
+                            <th>President <button onClick={(e) => this.updateOrderColum('PresidentName',e)}>-</button></th>
+                            <th>Birthday <button onClick={(e) => this.updateOrderColum('Birthday',e)}>-</button></th>
+                            <th>Birthplace<button onClick={(e) => this.updateOrderColum('Birthplace',e)}>-</button></th>
+                            <th>Deathday<button onClick={(e) => this.updateOrderColum('Deathday',e)}>-</button></th>
+                            <th>Deathplace<button onClick={(e) => this.updateOrderColum('Deathplace',e)}>-</button></th>
                         </tr>
                     </thead>
                     <tbody>{this.state.presidents.map(function(item, index){

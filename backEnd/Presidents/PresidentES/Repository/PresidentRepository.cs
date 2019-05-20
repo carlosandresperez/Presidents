@@ -18,17 +18,21 @@ namespace PresidentES.Repository
             _context = (PresidentContext)context;
         }
 
-        public async Task<List<PresidentInfo>> getListOfPresidents(bool orderDescending)
+        public async Task<List<PresidentInfo>> GetListOfPresidents(string orderColumn, bool orderDescending)
         {
-            if (orderDescending)
+            try
             {
-                return await _context.PresidentInfo.OrderByDescending(o => o.PresidentName).ToListAsync();
+                if (string.IsNullOrEmpty(orderColumn))
+                {
+                    orderColumn = "PresidentName";
+                }
+                string query = "select * from PresidentInfo order by " + orderColumn + (orderDescending ? " desc" : " asc");
+                return await _context.PresidentInfo.FromSql(query).ToListAsync();
             }
-            else
+            catch (Exception)
             {
-                return await _context.PresidentInfo.OrderBy(o => o.PresidentName).ToListAsync();
+                throw;
             }
-
         }
     }
 }

@@ -17,9 +17,9 @@ namespace PresidentES.Service
             _repository = new PresidentRepository(context);
         }
 
-        public async Task<List<PresidentInfo>> getListOfPresidents(bool orderDescending)
+        public async Task<List<PresidentInfo>> GetListOfPresidents(string orderColumn, bool orderDescending)
         {
-            return await _repository.getListOfPresidents(orderDescending);
+            return await _repository.GetListOfPresidents(orderColumn, orderDescending);
         }
     }
 }

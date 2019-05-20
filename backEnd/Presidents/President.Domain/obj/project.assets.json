@@ -13981,11 +13981,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlosperez/Documents/Presidents/President.Domain/President.Domain.csproj",
+      "projectUniqueName": "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/President.Domain.csproj",
       "projectName": "President.Domain",
-      "projectPath": "/Users/carlosperez/Documents/Presidents/President.Domain/President.Domain.csproj",
+      "projectPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/President.Domain.csproj",
       "packagesPath": "/Users/carlosperez/.nuget/packages/",
-      "outputPath": "/Users/carlosperez/Documents/Presidents/President.Domain/obj/",
+      "outputPath": "/Users/carlosperez/Documents/Desarrollo/Presidents/President.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
